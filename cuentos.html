@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos los cuentos</title>
+    <link rel="stylesheet" href="cuentos.css">
+    <script src="cuentos.js"></script>
+</head>
+<body>
+    
+
+    <main>
+        <div class="cuentos">
+            <div id="div1" class="cuento cuento1" onclick="mostrarDiv1()">
+              <img src="1.png">
+              <div class="texto">El Deseo Mágico de un Niño Explorador</div>
+            </div>
+            <div id="div2" class="cuento cuento2" onclick="mostrarDiv2()">
+              <img src="2.png">
+              <div class="texto"><em>añadiendo más historia...</em></div>
+            </div>
+            <div id="div3" class="cuento cuento3" onclick="mostrarDiv3()">
+              <img src="3.png">
+              <div class="texto">El Legado de los Cuerpos Estelares.</div>
+            </div>
+          </div>
+          <div class="modal" id="modal">
+            <div class="modal-content" id="modal-content">
+              <span class="close" onclick="cerrarCuento()">&times;</span>
+              <img id="modal-img" src="">
+              <div id="modal-texto"></div>
+            </div>
+          </div>
+       
+    </main>
+</body>
+</html>
